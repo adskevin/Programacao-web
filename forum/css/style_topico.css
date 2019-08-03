@@ -1,0 +1,79 @@
+@font-face {
+    font-family: kenyan;
+    src: url(../fonts/Sansation_Regular.ttf);
+}
+
+.conteudo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    height: 100px;
+    background-color: white;
+}
+
+.conteudo > a {
+    text-decoration: none;
+    color: black;
+}
+
+.conteudo > a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+#titulo_topico_conteudo {
+    font-size: 20px;
+}
+
+.area_post {
+    /* background-color: brown; */
+}
+
+.controles {
+    /* background-color: blue; */
+    margin-top: 5px;
+    /* font-size: 40px; */
+}
+
+.controles_esquerda {
+    /* background-color: blueviolet; */
+    float: left;
+    margin-right: 5px;
+}
+
+.controles_direita {
+    /* background-color: red; */
+    float: left;
+}
+
+.conteudo > p {
+    margin-left: 10px;
+}
+
+.categoria_conteudo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    height: 50px;
+    background-color: white;
+}
+
+.categoria_conteudo > h2{
+    font-size: 20px;
+}
+
+.conteudo_esquerda {
+    /* background-color: red; */
+    float: left;
+    margin-right: 5px;
+}
+
+.conteudo_direita {
+    /* background-color: blue; */
+    float: left;
+}
+
+.conteudo_baixo {
+    margin-top: 5px;
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: kenyan;
+    src: url(../fonts/Sansation_Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: kenyan;
+    text-align: center;
+}
+
+/* Body */
+body{
+    background-color: lightgray;
+}
+
+body > div {
+    width: 300px;
+    height: 300px;
+    /* border: black;
+    border-style: solid; */
+    margin: auto;
+    margin-top: 10%;
+}
